@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script> -->
+</head>
+
+<body>
+
+    <header>
+        <nav class="flex items-center justify-between bg-slate-300 p-2 lg:px-16 py-4">
+            <div>
+                <h1 class="font-bold text-2xl">Logo</h1>
+            </div>
+            <ul class="hidden md:flex items-center justify-center gap-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+
+            <div class="flex items-center justify-center gap-2">
+                <button class="px-4 py-2 border bg-white hover:bg-transparent transition-all duration-150  rounded-lg ">Sign In</button>
+                <button class="px-4 py-2 border bg-white hover:bg-transparent transition-all duration-150  rounded-lg ">Sign Up </button>
+            </div>
+        </nav>
+
+        <section class="bg-[url('./man-3672010_1280.jpg')] bg-right h-screen relative  my-8">
+            <div class="w-full h-full absolute top-0 left-0 bg-gray-900  opacity-30"></div>
+            <div class="flex flex-col items-center justify-center h-full gap-2  relative ">
+                <h1 class="text-5xl text-white font-bold">World Best Photographer</h1>
+                <p class="max-w-lg text-center text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nesciunt possimus, blanditiis consequatur voluptatum id a illum incidunt placeat libero!</p>
+                <button  class="px-4 py-2 border bg-white hover:bg-transparent hover:text-white transition-all duration-150  rounded-lg group">Get Started <i class="fa-solid fa-arrow-right group-hover:translate-x-2 transition-all duration-300"></i></button>
+            </div>
+        </section>
+    </header>
+
+
+    <div class="flex justify-center items-center flex-wrap  gap-4 my-16">
+        <div class="bg-slate-300 border rounded-lg p-12">
+            <img src="https://www.socialnetworkelite.com/hs-fs/hubfs/image2-17.jpg" alt=""
+                class="w-24 h-24 object-cover rounded-full p-1 border border-white">
+            <div class="">
+                <h1 class="text-xl font-bold">James Bond</h1>
+                <p class="text-center font-thin italic">Photographer</p>
+                <button
+                    class="px-4 py-2 border bg-white hover:bg-transparent transition-all duration-150  rounded-lg mt-4 ">Message</button>
+            </div>
+        </div>
+        <div class="bg-slate-300 border rounded-lg p-12">
+            <img src="https://www.socialnetworkelite.com/hs-fs/hubfs/image2-17.jpg" alt=""
+                class="w-24 h-24 object-cover rounded-full p-1 border border-white">
+            <div class="">
+                <h1 class="text-xl font-bold">James Bond</h1>
+                <p class="text-center font-thin italic">Photographer</p>
+                <button
+                    class="px-4 py-2 border bg-white hover:bg-transparent transition-all duration-150  rounded-lg mt-4 ">Message</button>
+            </div>
+        </div>
+        <div class="bg-slate-300 border rounded-lg p-12">
+            <img src="https://www.socialnetworkelite.com/hs-fs/hubfs/image2-17.jpg" alt=""
+                class="w-24 h-24 object-cover rounded-full p-1 border border-white">
+            <div class="">
+                <h1 class="text-xl font-bold">James Bond</h1>
+                <p class="text-center font-thin italic">Photographer</p>
+                <button
+                    class="px-4 py-2 border bg-white hover:bg-transparent transition-all duration-150  rounded-lg mt-4 ">Message</button>
+            </div>
+        </div>
+        <div class="bg-slate-300 border rounded-lg p-12">
+            <img src="https://www.socialnetworkelite.com/hs-fs/hubfs/image2-17.jpg" alt=""
+                class="w-24 h-24 object-cover rounded-full p-1 border border-white">
+            <div class="">
+                <h1 class="text-xl font-bold">James Bond</h1>
+                <p class="text-center font-thin italic">Photographer</p>
+                <button
+                    class="px-4 py-2 border bg-white hover:bg-transparent transition-all duration-150  rounded-lg mt-4 ">Message</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

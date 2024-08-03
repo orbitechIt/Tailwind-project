@@ -1,0 +1,6 @@
+difference between tailwind and bootstrap
+tailwind intruduction
+configuration setup with cdn
+tailwind intellisense extenstion install
+intruduce with custom tailwind 
+tailwind used and done a simple card design
